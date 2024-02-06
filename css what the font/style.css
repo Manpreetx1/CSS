@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f3f5;
+    background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Poppins', serif;
+    color: #2c3e50;
+    font-size: 2.8em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #34495e;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+article {
+    margin: 20px 0;
+}
+
+article p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    border-bottom: 1px dotted #2980b9;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #21618c;
+    border-bottom: 1px solid #21618c;
+}
+
+/* Additional Styles for Fabulous Look */
+body {
+    background: linear-gradient(to right, #76b852, #8DC26F);
+}
+
+main {
+    border: 1px solid #76b852;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+a {
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
+}
+
+/* Enhancing Buttons and Links */
+button,
+a.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover,
+a.button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* Styling Lists for better visual appeal */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
